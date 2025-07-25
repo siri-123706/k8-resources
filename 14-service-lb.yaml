@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-lb
   labels: 
-    purpose: service-lb-demo3
+    purpose: service-lb-demo
 spec:
   type: LoadBalancer
   selector:
@@ -20,9 +20,9 @@ kind: Pod
 metadata:
   name: nginx-lb
   labels:
-    purpose: service-lb-demo1
-    project: roboshop1
-    environment: dev1
+    purpose: service-lb-demo
+    project: roboshop
+    environment: dev
 spec:
   containers:
   - name: nginx
