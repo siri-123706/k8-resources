@@ -38,9 +38,9 @@ spec:
   containers:
   - name: nginx 
     image: nginx   
-    volumeMounts: # docker run -V host-path:container-path
+    volumeMounts: # docker run -v host-path:container-path
     - name: persistent-storage
-      mountPath: /usr/shar/nginx/html
+      mountPath: /usr/share/nginx/html
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
