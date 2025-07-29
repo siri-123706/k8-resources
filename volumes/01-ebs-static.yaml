@@ -34,9 +34,9 @@ metadata:
     project: roboshop
 spec:
   nodeSelector:
-    topology.kubernets.io/zone: us-east-1c
+    topology.kubernetes.io/zone: us-east-1c
   containers:
-  - name: nginx 
+  - name: nginx  
     image: nginx   
     volumeMounts: # docker run -v host-path:container-path
     - name: persistent-storage
