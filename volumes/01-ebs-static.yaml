@@ -34,7 +34,7 @@ metadata:
     project: roboshop
 spec:
   nodeSelector:
-    topology.kubernets.io/zone: us-east-1a
+    topology.kubernets.io/zone: us-east-1c
   containers:
   - name: nginx 
     image: nginx   
