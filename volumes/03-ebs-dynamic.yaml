@@ -30,4 +30,4 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: ebs-dynamic
+      claimName: ebs-dynamic 
